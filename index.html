@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shopping</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-md shadow-sm position-sticky top-0">
+      <div class="container-fluid">
+        <img
+          class="navbar-brand"
+          src="images/image-800x250.jpg"
+          style="width: 160px"
+        />
+        <button
+          class="navbar-toggler border"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="navbar-icons d-flex align-items-center gap-4">
+          <div class="search-box d-flex align-items-center gap-2">
+            <i class="fa-solid fa-magnifying-glass fs-5"></i>
+            <span>Search</span>
+          </div>
+          <a href="#"><i class="fa-regular fa-user fs-5"></i></a>
+          <a href="#"><i class="fa-regular fa-heart fs-5"></i></a>
+          <a href="#"><i class="fa-solid fa-cart-shopping fs-5"></i></a>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start hero section -->
+    <section class="hero">
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+           <div class="carousel-item carousel-item-one active"> 
+            <div class="d-flex align-items-center justify-content-between gap-5 h-100">
+              <div class="hero-info py-5">
+                <h5>Shop is fun</h5>
+                <h3 class="fw-bold text-capitalize mt-4">browse our premium product</h3>
+                <p class="mt-4">The latest trends, best prices, and fast delivery – everything you need, all in one place.</p>
+                <a href="#" class="d-inline-block px-5 py-2 rounded-pill mt-5">Browse Now</a>
+              </div>
+              <div class="hero-img hero-img-one">
+              </div>
+            </div>
+            
+          </div> 
+           <div class="carousel-item carousel-item-tow"> 
+            <div class="d-flex align-items-center justify-content-between gap-5 h-100">
+              <div class="hero-info py-5">
+                <h5>Shop is fun</h5>
+                <h3 class="fw-bold text-capitalize mt-4">Shop the Best of Products – Your Perfect Find Awaits!</h3>
+                <p class="mt-4">From trendsetting styles to everyday essentials, we offer premium products at unbeatable prices, with fast delivery right to your door.</p>
+                <a href="#" class="d-inline-block px-5 py-2 rounded-pill mt-5">Browse Now</a>
+              </div>
+              <div class="hero-img hero-img-tow">
+              </div>
+            </div>
+           
+            
+          </div> 
+          <div class="carousel-item carousel-item-three">
+            <div class="d-flex align-items-center justify-content-between gap-5 h-100">
+              <div class="hero-info py-5">
+                <h5>Shop is fun</h5>
+                <h3 class="fw-bold text-capitalize mt-4">
+                  Elevate Your Everyday – Shop Premium Products at Unbeatable
+                  Prices
+                </h3>
+                <p class="mt-4">
+                  Discover top-quality items, exclusive offers, and fast
+                  shipping – everything you need, all in one place.
+                </p>
+                <a
+                  href="#"
+                  class="d-inline-block px-5 py-2 rounded-pill mt-5"
+                  >Browse Now</a
+                >
+              </div>
+              <div class="hero-img hero-img-three">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- end hero section -->
+
+    <!-- start blog section -->
+     <section>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-0 g-4">
+        <div class="col">
+          <img src="./images/home/blog/hero-slide1.png" alt="img" class="w-100">
+        </div>
+        <div class="col">
+          <img src="./images/home/blog/hero-slide2.png" alt="img" class="w-100">
+        </div>
+        <div class="col">
+          <img src="./images/home/blog/hero-slide3.png" alt="img" class="w-100">
+        </div>
+        <!-- <div class="col">
+          <img src="./images/home/blog/product6.png" alt="img" class="w-100">
+        </div> -->
+      </div>
+     </section>
+     <!-- end blog section -->
+
+     <!-- start category section -->
+      <section class="categories py-5">
+        <div class="container-md">
+          <div class="section-title d-flex justify-content-between align-items-center">
+            <h4 class="text-capitalize">shop by category</h4>
+            <a href="#" class="d-flex align-items-center gap-2">
+              <p class="text-capitalize m-0">all category</p>
+              <i class="fa-solid fa-arrow-right-long mt-1"></i>
+            </a>
+          </div>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xxl-4 m-0 my-2 g-0 gy-3 gx-sm-3">
+            <div class="col">
+              <div class="category-card">
+                <img src="./images/home/category/blog1.png" alt="category-img" class="w-100">
+                <div class="category-card-info">
+                  <p class="m-0 fs-4 text-capitalize">Men's clothing</p>
+                  <a href="#" class="px-4 text-center py-1 rounded-pill mt-3 btn">Shop now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="category-card">
+                <img src="./images/home/category/blog2.png" alt="category-img" class="w-100">
+                <div class="category-card-info">
+                  <p class="m-0 fs-4 text-capitalize">women's clothing</p>
+                  <a href="#" class="px-4 text-center py-1 rounded-pill mt-3 btn">Shop now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="category-card">
+                <img src="./images/home/category/istockphoto-531786318-612x612 (1).jpg" alt="category-img" class="w-100">
+                <div class="category-card-info">
+                  <p class="m-0 fs-4 text-capitalize">jewelery</p>
+                  <a href="#" class="px-4 text-center py-1 rounded-pill mt-3 btn">Shop now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="category-card">
+                <img src="./images/home/category/64fa65666a4ddb57850ad86c_6495317f69906da7f091aea2 (1) (1).png" alt="category-img" class="w-100">
+                <div class="category-card-info">
+                  <p class="m-0 fs-4 text-capitalize">electronics</p>
+                  <a href="#" class="px-4 text-center py-1 rounded-pill mt-3 btn">Shop now</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+     <!-- end category section -->
+
+     <!-- start trending product section -->
+      <section class="trending-product my-5">
+        <div class="container-md">
+          <div class="section-title d-flex justify-content-between align-items-center">
+            <div>
+              <p class="m-0 mb-1 text-secondary">Popular Item in the market</p>
+            <h4 class="text-capitalize">trending product</h4>
+            </div>
+            <a href="#" class="d-flex align-items-center gap-2">
+              <p class="text-capitalize m-0">all product</p>
+              <i class="fa-solid fa-arrow-right-long mt-1"></i>
+            </a>
+          </div>
+          <div class="products-container my-5">
+            <div class="card border rounded-3">
+              <div>
+                <img src="./images/home/products/product1.png" alt="product-img" class="w-100">
+                <div class="d-flex flex-column p-3">
+                  <p class="m-0 text-capitalize text-secondary">accesories</p>
+                  <h5 class="text-capitalize fw-bold my-1">quartz belt watch</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(110) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"><i class="fa-solid fa-dollar-sign"></i>150.0</p>
+
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border rounded-3">
+              <div>
+                <img src="./images/home/products/product2.png" alt="product-img" class="w-100">
+                <div class="d-flex flex-column p-3">
+                  <p class="m-0 text-capitalize text-secondary">beauty</p>
+                  <h5 class="text-capitalize fw-bold my-1">women freshwash</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-regular fa-star-half-stroke text-warning"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(130) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"><i class="fa-solid fa-dollar-sign"></i>150.0</p>
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border rounded-3">
+              <div>
+                <img src="./images/home/products/product3.png" alt="product-img" class="w-100">
+                <div class="d-flex flex-column p-3">
+                  <p class="m-0 text-capitalize text-secondary">decor</p>
+                  <h5 class="text-capitalize fw-bold my-1">room flash light</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(110) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"><i class="fa-solid fa-dollar-sign"></i>160.0</p>
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border rounded-3">
+              <div>
+                <img src="./images/home/products/product4.png" alt="product-img" class="w-100">
+                <div class="d-flex flex-column p-3">
+                  <p class="m-0 text-capitalize text-secondary">decor</p>
+                  <h5 class="text-capitalize fw-bold my-1">room flash light</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(140) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"><i class="fa-solid fa-dollar-sign"></i>110.0</p>
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border rounded-3">
+              <div>
+                <img src="./images/home/products/product5.png" alt="product-img" class="w-100">
+                <div class="d-flex flex-column p-3">
+                  <p class="m-0 text-capitalize text-secondary">accesories</p>
+                  <h5 class="text-capitalize fw-bold my-1">man office bag</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(100) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"><i class="fa-solid fa-dollar-sign"></i>140.0</p>
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border rounded-3">
+              <div>
+                <img src="./images/home/products/product6.png" alt="product-img" class="w-100">
+                <div class="d-flex flex-column p-3">
+                  <p class="m-0 text-capitalize text-secondary">kids toy</p>
+                  <h5 class="text-capitalize fw-bold my-1">charging car</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(110) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"><i class="fa-solid fa-dollar-sign"></i>130.0</p>
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border rounded-3">
+              <div>
+                <img src="./images/home/products/product7.png" alt="product-img" class="w-100">
+                <div class="d-flex flex-column p-3">
+                  <p class="m-0 text-capitalize text-secondary">accesories</p>
+                  <h5 class="text-capitalize fw-bold my-1">blutooth speaker</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(120) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"><i class="fa-solid fa-dollar-sign"></i>120.0</p>
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border rounded-3">
+              <div>
+                <img src="./images/home/products/product8.png" alt="product-img" class="w-100">
+                <div class="d-flex flex-column  p-3">
+                  <p class="m-0 text-capitalize text-secondary">accesories</p>
+                  <h5 class="text-capitalize fw-bold my-1">Wireless charger</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(150) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"><i class="fa-solid fa-dollar-sign"></i>120.0</p>
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+     <!-- end trending product section -->
+
+
+     <!-- start paneer section -->
+      <section class="paneer my-5 position-relative">
+        <div class="paneer-info position-absolute top-50  translate-middle-y">
+          <h4 class="text-uppercase fw-bold">up to 50% off</h4>
+          <h5 class="text-capitalize">winter sale</h5>
+          <p class="text-secondary m-0">Him she'd let them sixth saw light</p>
+          <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Shop Now</a>
+        </div>
+      </section>
+     <!-- end paneer section -->
+
+
+      <!-- start best-sellers section -->
+      <section class="best-sellers my-5">
+        <div class="container-md">
+          <div class="section-title d-flex justify-content-between align-items-center">
+            <div>
+              <p class="m-0 mb-1 text-secondary">Popular Item in the market</p>
+            <h4 class="text-capitalize">best sellers</h4>
+            </div>
+            <a href="#" class="d-flex align-items-center gap-2">
+              <p class="text-capitalize m-0">all product</p>
+              <i class="fa-solid fa-arrow-right-long mt-1"></i>
+            </a>
+          </div>
+
+          <div class="products-container my-5">
+
+            <div class="card overflow-hidden rounded-3">
+              <div class="p-3">
+                <img src="./images/home/best seller/81fPKd-2AYL._AC_SL1500_ (1).jpg" alt="product-img" class="w-100">
+                <div class="d-flex flex-column pt-3">
+                  <p class="m-0 text-capitalize text-secondary">men's clothing</p>
+                  <h5 class="text-capitalize fw-bold my-1" title="Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops">Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(120) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"><i class="fa-solid fa-dollar-sign"></i> 109.95</p>
+
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card overflow-hidden rounded-3">
+              <div class="p-3">
+                <img src="./images/home/best seller/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_ (1).jpg" alt="product-img" class="w-100">
+                <div class="d-flex flex-column pt-3">
+                  <p class="m-0 text-capitalize text-secondary">men's clothing</p>
+                  <h5 class="text-capitalize fw-bold my-1" title="Mens Casual Premium Slim Fit T-Shirts">Mens Casual Premium Slim Fit T-Shirts</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(259) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"><i class="fa-solid fa-dollar-sign"></i> 22.3</p>
+
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card overflow-hidden rounded-3">
+              <div class="p-3">
+                <img src="./images/home/best seller/71li-ujtlUL._AC_UX679_ (1).jpg" alt="product-img" class="w-100">
+                <div class="d-flex flex-column pt-3">
+                  <p class="m-0 text-capitalize text-secondary">men's clothing</p>
+                  <h5 class="text-capitalize fw-bold my-1" title="Mens Cotton Jacket">Mens Cotton Jacket</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(500) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"> <i class="fa-solid fa-dollar-sign"></i> 55.99</p>
+
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card overflow-hidden rounded-3">
+              <div class="p-3">
+                <img src="./images/home/best seller/71YXzeOuslL._AC_UY879_ (1).jpg" alt="product-img" class="w-100">
+                <div class="d-flex flex-column pt-3">
+                  <p class="m-0 text-capitalize text-secondary">men's clothing</p>
+                  <h5 class="text-capitalize fw-bold my-1" title="Mens Casual Slim Fit">Mens Casual Slim Fit</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(430) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"> <i class="fa-solid fa-dollar-sign"></i> 15.99</p>
+
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card overflow-hidden rounded-3">
+              <div class="p-3">
+                <img src="./images/home/best seller/71pWzhdJNwL._AC_UL640_QL65_ML3_ (1).jpg" alt="product-img" class="w-100">
+                <div class="d-flex flex-column pt-3">
+                  <p class="m-0 text-capitalize text-secondary">jewelery</p>
+                  <h5 class="text-capitalize fw-bold my-1" title="John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet">John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(400) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"> <i class="fa-solid fa-dollar-sign"></i> 659</p>
+
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card overflow-hidden rounded-3">
+              <div class="p-3">
+                <img src="./images/home/best seller/61sbMiUnoGL._AC_UL640_QL65_ML3_ (1).jpg" alt="product-img" class="w-100">
+                <div class="d-flex flex-column pt-3">
+                  <p class="m-0 text-capitalize text-secondary">jewelery</p>
+                  <h5 class="text-capitalize fw-bold my-1" title="Solid Gold Petite Micropave">Solid Gold Petite Micropave</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(70) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"> <i class="fa-solid fa-dollar-sign"></i> 168</p>
+
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card overflow-hidden rounded-3">
+              <div class="p-3">
+                <img src="./images/home/best seller/71YAIFU48IL._AC_UL640_QL65_ML3_ (1).jpg" alt="product-img" class="w-100">
+                <div class="d-flex flex-column pt-3">
+                  <p class="m-0 text-capitalize text-secondary">jewelery</p>
+                  <h5 class="text-capitalize fw-bold my-1" title="White Gold Plated Princess">White Gold Plated Princess</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(400) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"> <i class="fa-solid fa-dollar-sign"></i> 9.99</p>
+
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card overflow-hidden rounded-3">
+              <div class="p-3">
+                <img src="./images/home/best seller/71kWymZ+c+L._AC_SX679_ (1).jpg" alt="product-img" class="w-100">
+                <div class="d-flex flex-column pt-3">
+                  <p class="m-0 text-capitalize text-secondary">electronics</p>
+                  <h5 class="text-capitalize fw-bold my-1" title="Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5">Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(319) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"> <i class="fa-solid fa-dollar-sign"></i> 109</p>
+
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card overflow-hidden rounded-3">
+              <div class="p-3">
+                <img src="./images/home/best seller/81Zt42ioCgL._AC_SX679_ (1).jpg" alt="product-img" class="w-100">
+                <div class="d-flex flex-column pt-3">
+                  <p class="m-0 text-capitalize text-secondary">electronics</p>
+                  <h5 class="text-capitalize fw-bold my-1" title="Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED">Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(140) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"> <i class="fa-solid fa-dollar-sign"></i> 999.99</p>
+
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card overflow-hidden rounded-3">
+              <div class="p-3">
+                <img src="./images/home/best seller/51Y5NI-I5jL._AC_UX679_ (1).jpg" alt="product-img" class="w-100">
+                <div class="d-flex flex-column pt-3">
+                  <p class="m-0 text-capitalize text-secondary">women's clothing</p>
+                  <h5 class="text-capitalize fw-bold my-1" title="BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats">BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(235) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"> <i class="fa-solid fa-dollar-sign"></i> 56.99</p>
+
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card overflow-hidden rounded-3">
+              <div class="p-3">
+                <img src="./images/home/best seller/81XH0e8fefL._AC_UY879_ (1).jpg" alt="product-img" class="w-100">
+                <div class="d-flex flex-column pt-3">
+                  <p class="m-0 text-capitalize text-secondary">women's clothing</p>
+                  <h5 class="text-capitalize fw-bold my-1" title="Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket">Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(340) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"> <i class="fa-solid fa-dollar-sign"></i> 29.95</p>
+
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card overflow-hidden rounded-3">
+              <div class="p-3">
+                <img src="./images/home/best seller/71HblAHs5xL._AC_UY879_-2 (1).jpg" alt="product-img" class="w-100">
+                <div class="d-flex flex-column pt-3">
+                  <p class="m-0 text-capitalize text-secondary">women's clothing</p>
+                  <h5 class="text-capitalize fw-bold my-1" title="Rain Jacket Women Windbreaker Striped Climbing Raincoats">Rain Jacket Women Windbreaker Striped Climbing Raincoats</h5>
+                  <div class="d-flex align-items-center gap-1 my-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="text-secondary ms-2" style="font-size: 14px;">(679) Reviewer</span>
+                  </div>
+                  <p class="m-0 text-secondary"> <i class="fa-solid fa-dollar-sign"></i> 39.99</p>
+
+                  <a href="#" class="px-5 text-center py-1 rounded-pill mt-3 btn">Buy now</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+     <!-- end best-sellers section -->
+
+
+     <!-- start latest-news section -->
+     <section class="latest-news my-5">
+      <div class="container-md">
+        <div class="section-title d-flex justify-content-between align-items-center">
+          <div>
+            <p class="m-0 mb-1 text-secondary">Popular Item in the market</p>
+          <h4 class="text-capitalize">latest news</h4>
+          </div>
+          <a href="#" class="d-flex align-items-center gap-2">
+            <p class="text-capitalize m-0">all news</p>
+            <i class="fa-solid fa-arrow-right-long mt-1"></i>
+          </a>
+        </div>
+
+        <div class="news-container my-5">
+
+          <div class="new-card">
+            <div>
+              <img src="./images/home/category/blog1.png" alt="product-img" class="w-100">
+              <div class="d-flex flex-column py-3 px-2">
+                <div class="d-flex align-items-center gap-4">
+                  <p class="text-secondary text-capitalize" style="font-size: 12px;">by admin</p>
+                  <p class="text-secondary" style="font-size: 12px;"><i class="fa-regular fa-comment-dots"></i> 2 Comments</p>
+                </div>
+                <p class=" text-capitalize">the richland center shooping news and weekly shooper</p>
+                <p class="text-secondary text-capitalize" style="font-size: 12px;">Let one fifth i bring fly to divided face for bearing divide unto seed. winged divided light Forth.</p>
+
+                <a href="#" class="text-capitalize d-flex align-items-center gap-2">read more <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="new-card">
+            <div>
+              <img src="./images/home/category/blog2.png" alt="product-img" class="w-100">
+              <div class="d-flex flex-column py-3 px-2">
+                <div class="d-flex align-items-center gap-4">
+                  <p class="text-secondary text-capitalize" style="font-size: 12px;">by admin</p>
+                  <p class="text-secondary" style="font-size: 12px;"><i class="fa-regular fa-comment-dots"></i> 2 Comments</p>
+                </div>
+                <p class=" text-capitalize">the richland center shooping news and weekly shooper</p>
+                <p class="text-secondary text-capitalize" style="font-size: 12px;">Let one fifth i bring fly to divided face for bearing divide unto seed. winged divided light Forth.</p>
+
+                <a href="#" class="text-capitalize d-flex align-items-center gap-2">read more <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="new-card">
+            <div>
+              <img src="./images/home/category/blog3.png" alt="product-img" class="w-100">
+              <div class="d-flex flex-column py-3 px-2">
+                <div class="d-flex align-items-center gap-4">
+                  <p class="text-secondary text-capitalize" style="font-size: 12px;">by admin</p>
+                  <p class="text-secondary" style="font-size: 12px;"><i class="fa-regular fa-comment-dots"></i> 2 Comments</p>
+                </div>
+                <p class=" text-capitalize">the richland center shooping news and weekly shooper</p>
+                <p class="text-secondary text-capitalize" style="font-size: 12px;">Let one fifth i bring fly to divided face for bearing divide unto seed. winged divided light Forth.</p>
+
+                <a href="#" class="text-capitalize d-flex align-items-center gap-2">read more <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+          </div>
+
+         
+
+        </div>
+      </div>
+    </section>
+   <!-- end latest-news section -->
+
+
+   <!-- start  contact-us section -->
+   <section class="contact-us py-5">
+    <div class="container">
+        <div>
+            <h4 class="text-capitalize mb-3">our mission</h4>
+           <p class="text-secondary" style="font-size: 14px;">So seed seed green that winged cattle in. Gathering made fly you're no divided deep moved us lan Gathering thing us land years living.</p> 
+           <p class="text-secondary mt-3" style="font-size: 14px;">So seed seed green that winged cattle in.Gathering thing made fly you're no divided deep moved</p>
+        </div>
+        <div>
+            <h4 class="text-capitalize mb-3">quick links</h4>
+            <ul class="d-flex flex-column gap-2 p-0">
+                <li class="text-secondary"><a href="#">Home</a></li>
+                <li class="text-secondary"><a href="#">Shop</a></li>
+                <li class="text-secondary"><a href="#">Blog</a></li>
+                <li class="text-secondary"><a href="#">Product</a></li>
+                <li class="text-secondary"><a href="#">Brand</a></li>
+                <li class="text-secondary"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="text-capitalize mb-3">gallery</h4>
+            <div class="imags d-flex gap-2 flex-wrap">
+                <img src="images/gallery/r1.jpg">
+                <img src="images/gallery/r2.jpg">
+                <img src="images/gallery/r3.jpg">
+                <img src="images/gallery/r5.jpg">
+                <img src="images/gallery/r7.jpg">
+                <img src="images/gallery/r8.jpg">
+            </div>
+        </div>
+        <div class="contact-links">
+            <h4 class="text-capitalize mb-3">countact us</h4>
+            <div class="d-flex gap-2 mb-3">
+                <i class="fa-solid fa-location-arrow"></i>
+                <span>
+                    <h6 class="text-capitalize">head office</h6>
+                    <p class="text-secondary" style="font-size: 14px;">123,Main Street, Your City</p>
+                </span>
+            </div>
+            <div class="d-flex gap-2 mb-3">
+                <i class="fa-solid fa-phone-flip"></i>
+                <span>
+                    <h6 class="text-capitalize">phone number</h6>
+                    <a href="tel:01123099558" class="text-secondary d-block" style="font-size: 14px;">+20 011 230 99558</a>
+                    <a href="tel:01123099558" class="text-secondary d-block" style="font-size: 14px;">+20 011 230 99558</a>
+                </span>
+            </div>
+            <div class="d-flex gap-2">
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h6 class="text-capitalize">email</h6>
+                    <a href="mailto:aaref8626@gmail.com" class="text-secondary d-block" style="font-size: 14px;">aaref8626@gmail.com</a>
+                    <a href="mailto:aaref8626@gmail.com" class="text-secondary d-block" style="font-size: 14px;">aaref8626@gmail.com</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end  contact-us section -->
+
+
+<footer>
+  <p>Copyright <i class="fa-regular fa-copyright"></i>2024 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by <span>Alaref</span></p>
+</footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
